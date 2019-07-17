@@ -1,0 +1,9 @@
+function Module2(var1, var2) {
+  this.bloat = new ArrayBuffer(1000);
+
+  this.API1 = function(x) {
+    return x/var1 - var2;
+  }
+}
+
+return new Module2(var1, var2);
